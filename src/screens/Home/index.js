@@ -6,7 +6,7 @@ import {
     SafeAreaView,
 } from 'react-native';
 import Title from '../../components/Title';
-import TitleClass from "../../components/Title/classComponent";
+
 
 const Home = () => {
     const [state, setState] = React.useState('My first Component')
@@ -22,8 +22,6 @@ const Home = () => {
         <SafeAreaView>
             <View>
                 <Title  />
-              
-                <TitleClass />
             </View>
         </SafeAreaView>
 

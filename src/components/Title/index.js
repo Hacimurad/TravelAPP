@@ -7,7 +7,7 @@ import {
 import style from './styles';
 const Title = () => {
 
-    console.log('Title Mounted');
+  
 
     const [stateTitle, setTitle] = useState('')
 

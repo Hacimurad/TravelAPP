@@ -48,7 +48,7 @@ const Home = () => {
                                 categories={[All,...categories ]} />
                         </>
                     )}
-                    keyExtractor={(item) => String(item.id)}
+                    keyExtractor={(item) => String(item.city)}
                     renderItem={({ item, index }) => (
                         <AttractionCard
                             key={item.id}

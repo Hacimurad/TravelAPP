@@ -5,6 +5,7 @@ const {width,height} = Dimensions.get("window");
 const styles = StyleSheet.create({
     container: {
         margin: 32,
+      
     },
   mainImages:{
     width:"100%",
@@ -65,7 +66,7 @@ const styles = StyleSheet.create({
         marginVertical:16,
     },
     textContainer:{
-
+        maxWidth:"70%",
     } ,
     title:{
         fontSize:28,
@@ -78,6 +79,19 @@ const styles = StyleSheet.create({
         color:"#000000",
         marginTop:8,
     } ,
+    map:{
+        width:"100%",
+        height: 200,
+    },
+    mapText:{
+        fontWeight:"bold",
+        fontSize:16,
+        color:"#4681A3",
+        textAlign:"center",
+        padding:16,
+        marginBottom:100,
+    }
+  
 });
 
 export default styles;
